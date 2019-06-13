@@ -99,6 +99,7 @@ categorical_features_hist(auto_clients,'DELTA_QTY_CHLD_16','NEW_AUTO')
 # Посмотрим на распределение категориальной величины - ИЗМЕНЕНИЕ В СЕМЕЙНОМ ПОЛОЖЕНИИ
 categorical_features_hist(auto_clients,'DELTA_CL_FAM_ST','NEW_AUTO')
 
+#РАБОТАЕМ С ДАТАСЕТОМ РЕАЛЬНЫХ ЛИЗИНГОВЫХ СДЕЛОК
 #import dataset
 auto_clients = pd.read_csv('/home/anton/Projects/python/development/credit_demand/leasing_clid_20190603.csv', encoding = "ISO-8859-1")
 #auto_clients = pd.read_csv('D:/Models/development/credit_demand/leasing_clid_20190613_rem.csv', encoding = "ISO-8859-1")
